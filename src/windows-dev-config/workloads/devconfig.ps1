@@ -99,12 +99,12 @@ $phases = @(
         Title     = 'GitHub Copilot'
         Uninstall = $true
     }
-    @{
-        File      = 'wsl.ps1'
-        Function  = 'Invoke-WslPhase'
-        Title     = 'WSL + Ubuntu'
-        Uninstall = $true
-    }
+#    @{
+#        File      = 'wsl.ps1'
+#        Function  = 'Invoke-WslPhase'
+#        Title     = 'WSL + Ubuntu'
+#        Uninstall = $true
+#    }
 )
 if ($Action -eq 'Partial') {
     $phases = @($phases | Where-Object { $_.File -ne 'edge.ps1' })
