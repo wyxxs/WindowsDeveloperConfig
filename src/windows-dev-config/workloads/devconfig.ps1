@@ -32,14 +32,14 @@ $phases = @(
         Parameters = @{
             Packages = @(
                 'Terminal'
-                'IntelligentTerminal'
+#                'IntelligentTerminal'
                 'PowerShell'
                 'Git'
-                'GitHubCLI'
-                'AzureCLI'
-                'GitHubCopilot'
+#                'GitHubCLI'
+#                'AzureCLI'
+#                'GitHubCopilot'
                 'VSCode'
-                'DotnetSdk'
+#                'DotnetSdk'
                 'Python'
                 'VCRedist'
                 'UV'
@@ -47,7 +47,7 @@ $phases = @(
                 'nvmForNode'
                 'Coreutils'
                 'OhMyPosh'
-                'winappCli'
+     #           'winappCli'
                 'PowerToys'
             )
         }
