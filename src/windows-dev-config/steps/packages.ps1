@@ -74,11 +74,11 @@ function Get-DevConfigPackageCatalog {
             Id              = 'Microsoft.WindowsTerminal'
             KeepOnUninstall = $true
         }
-        @{
-            Name           = 'IntelligentTerminal'
-            Id             = 'Microsoft.IntelligentTerminal'
-            UninstallOrder = 12
-        }
+#        @{
+#            Name           = 'IntelligentTerminal'
+#            Id             = 'Microsoft.IntelligentTerminal'
+#            UninstallOrder = 12
+#        }
         @{
             Name           = 'PowerShell'
             Id             = 'Microsoft.PowerShell'
@@ -90,22 +90,22 @@ function Get-DevConfigPackageCatalog {
             UninstallOrder = 6
             InnoUninstall  = @{ DisplayName = 'Git'; Publisher = 'The Git Development Community' }
         }
-        @{
-            Name           = 'GitHubCLI'
-            Id             = 'GitHub.cli'
-            UninstallOrder = 7
-        }
-        @{
-            Name           = 'AzureCLI'
-            Id             = 'Microsoft.AzureCLI'
-            UninstallOrder = 9
-        }
-        @{
-            Name                   = 'GitHubCopilot'
-            Id                     = 'GitHub.Copilot'
-            UninstallOrder         = 4
-            AdditionalUninstallIds = @('XPDC8MMRVCF73P', 'GitHub Copilot CLI')
-        }
+#        @{
+#            Name           = 'GitHubCLI'
+#            Id             = 'GitHub.cli'
+#            UninstallOrder = 7
+#        }
+#        @{
+#            Name           = 'AzureCLI'
+#            Id             = 'Microsoft.AzureCLI'
+#            UninstallOrder = 9
+#        }
+#        @{
+#            Name                   = 'GitHubCopilot'
+#            Id                     = 'GitHub.Copilot'
+#            UninstallOrder         = 4
+#            AdditionalUninstallIds = @('XPDC8MMRVCF73P', 'GitHub Copilot CLI')
+#        }
         @{
             Name           = 'VSCode'
             Id             = 'Microsoft.VisualStudioCode'
@@ -113,12 +113,12 @@ function Get-DevConfigPackageCatalog {
             UninstallOrder = 14
             InnoUninstall  = @{ DisplayName = 'Microsoft Visual Studio Code'; Publisher = 'Microsoft Corporation' }
         }
-        @{
-            Name           = 'DotnetSdk'
-            Id             = 'Microsoft.DotNet.SDK.10'
-            Large          = $true
-            UninstallOrder = 11
-        }
+#        @{
+#            Name           = 'DotnetSdk'
+#            Id             = 'Microsoft.DotNet.SDK.10'
+#            Large          = $true
+#            UninstallOrder = 11
+#        }
         @{
             Name                   = 'Python'
             Id                     = 'Python.Python.3.14'
@@ -156,11 +156,11 @@ function Get-DevConfigPackageCatalog {
             Id             = 'JanDeDobbeleer.OhMyPosh'
             UninstallOrder = 8
         }
-        @{
-            Name           = 'winappCli'
-            Id             = 'Microsoft.WinAppCli'
-            UninstallOrder = 15
-        }
+#        @{
+#            Name           = 'winappCli'
+#            Id             = 'Microsoft.WinAppCli'
+#            UninstallOrder = 15
+#        }
         @{
             Name           = 'PowerToys'
             Id             = 'Microsoft.PowerToys'
